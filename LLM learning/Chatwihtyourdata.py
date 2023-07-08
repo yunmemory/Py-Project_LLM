@@ -31,7 +31,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # get notion token and database id
 NOTION_TOKEN = os.getenv("NOTION_TOKEN")
-DATABASE_ID = "a11ab2438d224563a4997fd73ed15f97"
+DATABASE_ID = os.getenv("DATABASE_ID")
 
 
 # # load the pdf file
